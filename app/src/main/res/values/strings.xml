@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewPagerwithFragments</string>
+    <string name="call_fragment">Call Fragment</string>
+    <string name="chat_fragment">Chat Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="status_fragment">Status Fragment</string>
+</resources>
