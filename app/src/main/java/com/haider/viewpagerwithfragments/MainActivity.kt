@@ -20,7 +20,6 @@ class PagerViewActivity: AppCompatActivity() {
         val statusFragment = StatusFragment()
         val profileFragment = ProfileFragment()
 
-        String
         val adapter = MyViewPagerAdapter(supportFragmentManager)
         adapter.addFragment(chatsFragment, "Chats")
         adapter.addFragment(callsFragment, "Calls")

@@ -9,10 +9,16 @@
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabs"
-        android:background="@color/purple_200"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
         app:tabMode="fixed"
+        app:tabRippleColor="@android:color/transparent"
+        app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        app:tabIndicatorAnimationDuration="@integer/material_motion_duration_long_2"
+        android:background="#D6C3ED"
+        app:tabTextColor="#E91E63"
+        app:tabSelectedTextColor="#FFEB3B"
+        app:tabIndicatorColor="#FF5722"
         app:tabGravity="fill" />
 
     <androidx.viewpager.widget.ViewPager
